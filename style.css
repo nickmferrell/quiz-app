@@ -1,0 +1,31 @@
+body {
+  /* font: fantasy; */
+  /* background-image: radial-gradient(60% 60%, lightblue, rgb(1, 36, 68)); */
+  background: azure;
+  font-family: fantasy;
+} 
+
+.horizontal-list {
+  
+  font: fantasy;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+
+#main {
+  text-align: left;
+  padding: 0 200px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+.start-page, button {
+  font-family: fantasy;
+}
+
+button {
+  margin-top: 10px;
+  justify-content: center;
+}
+
