@@ -117,20 +117,6 @@ function handleNextQuestion() {
   })
 }
 /////////////////////////////////////////////////////////////
-// Another way to interpret $(function() { }) is like this:
-//
-//Hey $ or jQuery, can you please call this function I am passing as an argument once the DOM has loaded?
-function handleSetup() {
-  $(function() {
-    handleStartQuiz()
-    handleAnswerSubmit()
-    handleNextQuestion()
-    updateScore()
-    renderStartPage()
-  })
-}
-handleSetup()
-
 
 // Utility functions to get data to populate with jQuery
 function checkAnswer(answer, questionNumber) {
@@ -154,3 +140,15 @@ function getScore() {
 function totalQuestions(){
   return STORE.length
 }
+
+// Another way to interpret $(function() { }) is like this:
+//
+//Hey $ or jQuery, can you please call this function I am passing as an argument once the DOM has loaded?
+// function handleSetup() {
+$(function handleSetup() {
+    handleStartQuiz()
+    handleAnswerSubmit()
+    handleNextQuestion()
+    updateScore()
+    renderStartPage()
+  })
